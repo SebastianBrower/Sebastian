@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.title_section{
+    background-color: black;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mycontainer{
+    border: 10px solid whitesmoke;
+    height: 50%;
+    width: 70%;
+}
+
+.content1{
+    color: whitesmoke;
+    font-family: "Old Standard TT";
+}
+.name{
+    font-size: 5rem;
+    font-weight: 600;
+    margin-left: 5px;
+    
+}
+
+.content2{
+    color: whitesmoke;
+    font-family: "Nunito Sans";
+}
+.job{
+    font-size: 2rem;
+    font-weight: 300;
+    margin-left: 10px;
+}
+.myimg{
+    border-radius: 50%;
+}
+.svg{
+    padding: 5px;
+}
+
+@media (max-width: 450px) {
+    .name {
+        font-size: 3rem;
+    }
+}
